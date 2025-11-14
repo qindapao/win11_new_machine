@@ -286,6 +286,11 @@ source ~/.bashrc
 
 ### 屏幕录屏软件和按键记录软件
 
+- 录屏软件：[ocam](https://osssr.lanzoum.com/b01ty3kjc)。
+- 按键显示软件：[keyviz](https://github.com/mulaRahul/keyviz)。
+
+keyviz使用最新的版本，不要使用稳定版，因为稳定版没有鼠标显示功能。
+
 把 git go 的路径加入到msys2中的.bashrc的PATH环境变量中去。
 
 
