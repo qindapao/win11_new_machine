@@ -236,7 +236,6 @@ https://github.com/universal-ctags/ctags-win32
 " --regex-zim=/^(\={2}\s)(\S.+)(\s\={2})$/.       \2/h,heading/
 ```
 
-
 ### ripgrep
 https://github.com/BurntSushi/ripgrep
 
