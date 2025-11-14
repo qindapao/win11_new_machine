@@ -149,7 +149,19 @@ https://git-scm.com/install/windows
 git config --global user.name QinQing
 git config --global user.password xxxxxxxxxx
 git config --global user.email "northisland2017@gmail.com"
+git config --global credential.https://github.com.username qindapao
 ```
+
+最好一行的作用是当有多用户名的情况下指定那个用户名，而不是每次都让`git`来问你。
+
+更加具体的指引可以在这里找到：https://github.com/git-ecosystem/git-credential-manager/blob/main/docs/multiple-users.md
+
+要查看自己的`git`的所有配置使用下面的命令：
+
+```bash
+git config --global --list
+```
+
 
 ### python
 
