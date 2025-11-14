@@ -293,4 +293,9 @@ keyviz使用最新的版本，不要使用稳定版，因为稳定版没有鼠�
 
 把 git go 的路径加入到msys2中的.bashrc的PATH环境变量中去。
 
+### WindTerm
+
+https://github.com/kingToolbox/WindTerm
+
+
 
