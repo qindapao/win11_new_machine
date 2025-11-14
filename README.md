@@ -126,6 +126,13 @@ let g:terminal_cwd = 1
 let g:terminal_shell = 'D:/msys64/ucrt64_bash.bat'
 ```
 
+这里有个特别需要注意的地方，在`my_vim_config`的项目中，`ucrt64_bash.bat`上库后的换行符的格式是`Linux`的`LF`。但是在windows上执行是要求CRLF的换行符的格式的。
+
+可以使用`notepad++`类似的编辑器转换下再放到目录中去。还有个注意的是当前环境中的环境变量的路径中不能有空格，如果有空格会造成脚本执行异常。
+
+具体的原因未知，后续可以优化下。
+
+
 `coc.nvim`是一个很大的插件，具体安装什么子插件，依需求而定。
 
 ### 7zip
