@@ -278,7 +278,15 @@ echo 'export PATH=${PATH}:/c/Users/admin/go' >> ~/.bashrc
 echo 'export PATH=${PATH}:/c/Users/admin/go/bin' >> ~/.bashrc
 echo 'export PATH=${PATH}:/d/programes/vim' >> ~/.bashrc
 echo 'export PATH=${PATH}:/d/programes/vim/glob/bin' >> ~/.bashrc
+echo 'export PS1='\''\[\e]0;\w\a\]\[\e[32m\]\u@\h \[\e[35m\]$MSYSTEM\[\e[0m\] \[\e[33m\]\w\[\e[0m\]\$'\''' >> ~/.bashrc
 source ~/.bashrc
+```
+
+上面重新设置了`msys2`的终端提示符的格式，更加的紧凑好看，默认的是有两个换行符的。
+
+```bash
+$ printf "%s\n" "$PS1"
+\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[35m\]$MSYSTEM\[\e[0m\] \[\e[33m\]\w\[\e[0m\]\n\$
 ```
 
 ### trans
